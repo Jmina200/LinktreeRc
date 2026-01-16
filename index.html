@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Juventud en Cambio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div id="startScreen" class="start-screen">
+    <div class="start-content">
+      <h1>👋 ¡Hola!</h1>
+      <p>Toca para ver el video</p>
+      <button id="startBtn">INGRESAR</button>
+    </div>
+  </div>
+
+  <video id="bgVideo" playsinline loop>
+    <source src="fondo3.mp4" type="video/mp4">
+  </video>
+
+  <div class="overlay"></div>
+
+  <div class="buttons hidden" id="buttons">
+    <a href="https://wa.me/593982082229" target="_blank" class="btn blue">WhatsApp</a>
+    <a href="https://maps.app.goo.gl/jW7wkPCxWd1fMeUD6" target="_blank" class="btn red">Ubicación</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
